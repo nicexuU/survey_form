@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+fieldset {
+  width: 750px;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: rgb(248, 242, 236);
+}
+h1 {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  padding-top: 10px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+}
+p::first-letter {
+  color: blue;
+}
+input:hover::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+.client-input {
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: 150px;
+  background: transparent;
+}
+.client-info {
+  font-size: 16px;
+}
+.services-checkbox {
+  padding: 8px 6px;
+}
+textarea {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  resize: none;
+}
+textarea::placeholder {
+  color: gray;
+  font-style: italic;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+textarea:hover::placeholder {
+  opacity: 0;
+}
+.submit {
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 3px 12px;
+  font-size: 16px;
+}
+.submit:hover {
+  background: linear-gradient(to right, #ff5733, #33ff57);
+  transform: scale(1.1);
+  transition: background 0.3s ease, transform 0.5s ease;
+}
